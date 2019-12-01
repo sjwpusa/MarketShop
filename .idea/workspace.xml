@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7131c73a-0cd1-456e-9c6b-75482399186b" name="Default Changelist" comment="" />
+    <list default="true" id="7131c73a-0cd1-456e-9c6b-75482399186b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wp-content/themes/marketshop/app/classes/class-posttypes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/marketshop/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/marketshop/functions.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,38 +30,38 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
-          <entry key="gitignore" value="14" />
+          <entry key="gitignore" value="15" />
           <entry key="html" value="2" />
-          <entry key="php" value="64" />
+          <entry key="php" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="Git file" value="14" />
+          <entry key="Git file" value="15" />
           <entry key="HTML" value="2" />
-          <entry key="PHP" value="64" />
+          <entry key="PHP" value="67" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="83" />
           <entry key="gitignore" value="3" />
-          <entry key="php" value="3676" />
-          <entry key="txt" value="16" />
+          <entry key="php" value="4147" />
+          <entry key="txt" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="83" />
           <entry key="Git file" value="3" />
-          <entry key="PHP" value="3676" />
-          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="PHP" value="4147" />
+          <entry key="PLAIN_TEXT" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.new.class">
         <counts>
-          <entry key="PHP Class.type" value="4" />
+          <entry key="PHP Class.type" value="5" />
         </counts>
       </usages-collector>
     </session>
@@ -64,10 +69,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/marketshop/app/classes/class-posttypes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            <state relative-caret-position="-200">
+              <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/marketshop/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -132,8 +146,9 @@
         <option value="$PROJECT_DIR$/wp-content/themes/marketshop/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/marketshop/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/marketshop/app/classes/class-initializer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/marketshop/functions.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/wp-content/themes/marketshop/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/marketshop/app/classes/class-posttypes.php" />
       </list>
     </option>
   </component>
@@ -174,6 +189,30 @@
               <item name="wp-content" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="marketShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="marketShop" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="marketshop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="marketShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="marketShop" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="marketshop" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="marketShop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="marketShop" type="462c0819:PsiDirectoryNode" />
+              <item name="wp-content" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="marketshop" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -182,7 +221,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="add_unversioned_files" value="true" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/wp-content/themes/marketshop/app/classes/class-posttypes.php&#10;true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -221,7 +260,7 @@
       <workItem from="1574784492721" duration="8818000" />
       <workItem from="1574923892345" duration="4401000" />
       <workItem from="1574929991589" duration="750000" />
-      <workItem from="1575185805362" duration="876000" />
+      <workItem from="1575185805362" duration="3805000" />
     </task>
     <task id="LOCAL-00001" summary="initialize repo">
       <created>1574925974099</created>
@@ -234,7 +273,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31320000" />
+    <option name="totallyTimeSpent" value="34249000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -441,6 +480,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketshop/app/classes/class-initializer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/marketshop/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -451,21 +504,14 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/marketshop/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" column="55" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketshop/app/classes/class-initializer.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/marketshop/app/classes/class-posttypes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" column="24" lean-forward="true" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        <state relative-caret-position="-200">
+          <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
         </state>
       </provider>
     </entry>
