@@ -25,10 +25,10 @@ class PostTypes
             'parent_item_colon'     => __( 'محصولات والد :', 'textdomain' ),
             'not_found'             => __( 'محصولی یافت نشد.', 'textdomain' ),
             'not_found_in_trash'    => __( 'در زباله دان محصولی یافت نشد.', 'textdomain' ),
-            'featured_image'        => _x( 'تصویر کاور محصول', 'Overrides the “Featured Image” phrase for this post type. Added in 4.3', 'textdomain' ),
-            'set_featured_image'    => _x( 'تنظیم تصویر کاور محصول', 'Overrides the “Set featured image” phrase for this post type. Added in 4.3', 'textdomain' ),
-            'remove_featured_image' => _x( 'حذف تصویر کاور محصول', 'Overrides the “Remove featured image” phrase for this post type. Added in 4.3', 'textdomain' ),
-            'use_featured_image'    => _x( 'استفاده از یک نصویر کاور', 'Overrides the “Use as featured image” phrase for this post type. Added in 4.3', 'textdomain' ),
+            'featured_image'        => _x( 'تصویر  محصول', 'Overrides the “Featured Image” phrase for this post type. Added in 4.3', 'textdomain' ),
+            'set_featured_image'    => _x( 'تنظیم تصویر  محصول', 'Overrides the “Set featured image” phrase for this post type. Added in 4.3', 'textdomain' ),
+            'remove_featured_image' => _x( 'حذف تصویر  محصول', 'Overrides the “Remove featured image” phrase for this post type. Added in 4.3', 'textdomain' ),
+            'use_featured_image'    => _x( 'استفاده از یک تصویر ', 'Overrides the “Use as featured image” phrase for this post type. Added in 4.3', 'textdomain' ),
             'archives'              => _x( 'آرشیو محصول', 'The post type archive label used in nav menus. Default “Post Archives”. Added in 4.4', 'textdomain' ),
             'insert_into_item'      => _x( 'افزودن به محصول', 'Overrides the “Insert into post”/”Insert into page” phrase (used when inserting media into a post). Added in 4.4', 'textdomain' ),
             'uploaded_to_this_item' => _x( 'اپلود کردن به این محصول', 'Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used when viewing media attached to a post). Added in 4.4', 'textdomain' ),
@@ -54,5 +54,20 @@ class PostTypes
 
         register_post_type( 'product', $args );
 
+    }
+
+    public static function add_price_column($columns)
+    {
+        return array_slice($columns, 0, 2, true) +
+        array('product_price' => 'قیمت') +
+        array_slice($columns, 2, count($columns) - 1, true) ;
+    }
+
+    public static function show_price_value_column($column,$post_id)
+    {
+        if ($column=='product_price')
+        {
+            echo number_format(get_post_meta($post_id,'sjms_product_price',true));
+        }
     }
 }

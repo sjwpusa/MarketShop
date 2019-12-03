@@ -10,6 +10,6 @@ class Initializer {
 
 	public static function setup()
 	{
-		add_theme_support('post-thumbnalis');
+        add_theme_support( 'post-thumbnails' );
 	}
 }
